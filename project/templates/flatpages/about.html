@@ -1,5 +1,5 @@
 {% extends 'flatpages/default.html' %}
-
+ 
 {% block title %}
 {{ flatpage.title }}
 {% endblock title %}
@@ -7,9 +7,7 @@
 {% block sec_title %}
 {{ flatpage.title }}
 {% endblock sec_title %}
-
+ 
 {% block content %}
-    <h3>Наши контакты:</h3>
-{{ flatpage.content }}
-{{ flatpage.content }}
+    <h3><i>{{ flatpage.content }}</i></h3>
 {% endblock content %}
